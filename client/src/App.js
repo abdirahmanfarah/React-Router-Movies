@@ -16,7 +16,7 @@ const App = () => {
 
     <div>
     <div>
-        {/* <Link to = "/movies/id"> Movie</Link> */}
+        <Link to = "/movies/id"> Movie</Link>
     </div>
 
       <SavedList list={savedList} />
