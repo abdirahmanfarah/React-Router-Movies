@@ -16,12 +16,12 @@ const App = () => {
 
     <div>
     <div>
-        <Link to = "/movies/id"> Movie</Link>
+        <Link to = "/movies/:id"> Movie</Link>
     </div>
 
       <SavedList list={savedList} />
       <Route exact path = "/" component = {MovieList} />
-      <Route path = "/movies/id" component = {Movie} />
+      <Route path = "/movies/:id" component = {Movie} />
 
     </div>
   );
